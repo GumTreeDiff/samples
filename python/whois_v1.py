@@ -1,3 +1,8 @@
 import whois
-w = whois.whois("bar.org")
-print(w)
+
+verbose = true
+
+def show_whois:
+  if verbose:
+    w = whois.whois("foo.org")
+    print(w)
