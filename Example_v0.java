@@ -1,25 +1,16 @@
-import java.util.Random;
+public class A {
+    private static int X;
+    private static int Y = 5;
 
-public class Example {
+    public A(){
+        A.X = 5;
+    } 
 
-	public void hello() {
-		System.out.println("Hello everybody!");
-		System.out.println("This code is a magnificent example");
-		System.out.println("For the ASE 2014 conference");
-		System.out.println("It draws a number at random");
-		System.out.println("Adds 10");
-		System.out.println("Multiplies by 10");
-		System.out.println("And displays it");
-		int k = random();
-		System.out.println(k);
-	}
-	
-	public int random() {
-		Random r = new Random();
-		int i = r.nextInt();
-		i += 10;
-		i *= 10;
-		return i;
-	}
+    public int fcn(){
+        return A.X * A.Y;
+    }
 
+    public int test(){
+        return A.X * A.Y;
+    }
 }
