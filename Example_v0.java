@@ -1,20 +1,19 @@
+package controller;
+
 import java.util.Random;
 
-public class Example {
+public class A {
+    private static int Z;
 
-	public void hello() {
-		System.out.println("Hello everybody!");
-		System.out.println("This code is a magnificent example");
-		System.out.println("For the ASE 2014 conference");
-		System.out.println("It draws a number at random");
-		System.out.println("Adds 10");
-		System.out.println("Multiplies by 10");
-		System.out.println("And displays it");
-		Random r = new Random();
-		int i = r.nextInt();
-		i += 10;
-		i *= 10;
-		System.out.println(i);
-	}
+    public A() {
+        A.Z = 5;
+    }
 
+    public int fcn(){
+        return A.Z * 5;
+    }
+
+    public int test(){
+        return A.Z * 5;
+    }
 }
