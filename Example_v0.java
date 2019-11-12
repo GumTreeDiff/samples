@@ -13,8 +13,4 @@ public class A {
     public int test(){
         return A.X * A.Y;
     }
-    
-     public int test2(){
-        return 1 + 2;
-    }
 }
