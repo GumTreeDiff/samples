@@ -6,11 +6,15 @@ public class A {
         A.X = 5;
     }
     
+    public int fcn(){
+        return A.X * A.Y;
+    }
+    
     public int test(){
         return A.X * A.Y;
     }
-
-    public int fcn(){
-        return A.X * A.Y;
+    
+     public int test2(){
+        return 1 + 2;
     }
 }
