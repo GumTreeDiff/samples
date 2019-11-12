@@ -5,12 +5,12 @@ public class A {
     public A(){
         A.X = 5;
     }
-
-    public int fcn(){
+    
+    public int test(){
         return A.X * A.Y;
     }
 
-    public int test(){
+    public int fcn(){
         return A.X * A.Y;
     }
 }
