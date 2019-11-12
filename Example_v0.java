@@ -17,4 +17,8 @@ public class A {
     public int test(){
         return 15 + 26;
     }
+    
+    public int test3(){
+        return 999 - 25;
+    }
 }
