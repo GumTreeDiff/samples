@@ -21,4 +21,8 @@ public class A {
     public int test3(){
         return 999 - 25;
     }
+    
+    public int test4(){
+        return 999 - 25;
+    }
 }
